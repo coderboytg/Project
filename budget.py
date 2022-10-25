@@ -85,7 +85,7 @@ def updated():
 
 
 if __name__=="__main__":
-    app.run(debug=True)
+    app.run(debug=False)
 
 #action="{{url_for('budget.html')}}"
 #redirect(url_for('/account.html'))
